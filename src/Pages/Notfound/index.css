@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+.Notfound{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error{
+    min-height: 60px;
+    width: 330px;
+}
+.titleOfError{
+    font-weight: 900;
+    font-size: 1.777rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.666rem;
+}
+.descriptionOfError{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.buttoncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.buttoncontainer button{
+    height: 33px;
+    width: 192px;
+    cursor: pointer;
+    border: none;
+    border-radius: 04rem;
+    outline: none;
+    transition: 0.3s all ease-in-out;
+    background-color: rgb(2, 112, 246);
+    color: white;
+}
+.buttoncontainer button:hover{
+    background-color:  rgb(3, 80, 174);
+}
+.buttoncontainer button:active{
+    background-color: rgb(1, 44, 96);;
+}
+.buttoncontainer button{
+    visibility: hidden;
+    opacity: 0;
+}
+.buttoncontainer .showBtn{
+    opacity: 1;
+    visibility: visible;
+}
+.Notfound{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s all ease-in-out;
+}
+.showNotfound{
+    visibility: visible;
+    opacity: 1;
+}
