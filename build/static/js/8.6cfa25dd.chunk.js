@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[8],{2008:function(e,c,t){e.exports=t.p+"static/media/ROT.585712ef9e7303c5aa9f.JSX"}}]);
