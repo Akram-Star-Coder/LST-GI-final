@@ -77,7 +77,7 @@ const PartModules = () => {
             Réseau Informatique 🌐
             </div>
             <div className="nameProf">
-                <span>Email</span> : 
+                <span>Email</span> : dakir@uhp.ac.ma
             </div>
             <div className="nameProf">
                 <button
