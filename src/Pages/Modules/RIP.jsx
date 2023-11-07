@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Controllers/Navbar';
-import pv from "./FILES6/pv.docx";
+import pv from "./FILES6/PV_SEMAINE_5.docx";
 import Photo from "./FILES6/photo2.png";
 
 const RIP = () => {
