@@ -20,7 +20,7 @@ import RIC from './Pages/Modules/RIC.jsx';
 import SEC from './Pages/Modules/SEC.jsx';
 import JAVAC from './Pages/Modules/JAVAC.jsx';
 import JAVAT from './Pages/Modules/JAVAT.jsx';
-import ROT from './Pages/Modules/ROT.JSX';
+import ROT from './Pages/Modules/ROT.sjx';
 import ROC from './Pages/Modules/ROC.jsx';
 import RIP from './Pages/Modules/RIP.jsx';
 
