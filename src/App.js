@@ -3,9 +3,7 @@ import React,{ lazy, Suspense } from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Loader from './loader.svg';
 
-const Home = lazy(() => import('./Pages/Home/Home.jsx'));
-const Login = lazy(() => import('./Pages/Login/Login.jsx'));
-const Notfound = lazy(() => import('./Pages/Notfound/Notfound.jsx'));
+
 import JAVA from'./Pages/Modules/JAVA.jsx'
 import RI from './Pages/Modules/RI.jsx';
 import RO from './Pages/Modules/RO.jsx';
@@ -26,6 +24,10 @@ import ROT from './Pages/Modules/ROT.JSX';
 import ROC from './Pages/Modules/ROC.jsx';
 import RIP from './Pages/Modules/RIP.jsx';
 
+
+const Home = lazy(() => import('./Pages/Home/Home.jsx'));
+const Login = lazy(() => import('./Pages/Login/Login.jsx'));
+const Notfound = lazy(() => import('./Pages/Notfound/Notfound.jsx'));
 
 function App() {
 
