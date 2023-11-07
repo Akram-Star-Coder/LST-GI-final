@@ -1,4 +1,4 @@
-import './App.css';
+densitimport './App.css';
 import React,{ lazy, Suspense } from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Loader from './loader.svg';
@@ -6,25 +6,26 @@ import Loader from './loader.svg';
 const Home = lazy(() => import('./Pages/Home/Home.jsx'));
 const Login = lazy(() => import('./Pages/Login/Login.jsx'));
 const Notfound = lazy(() => import('./Pages/Notfound/Notfound.jsx'));
-const JAVA = lazy(() => import('./Pages/Modules/JAVA.jsx'));
-const RI = lazy(() => import('./Pages/Modules/RI.jsx'));
-const RO = lazy(() => import('./Pages/Modules/RO.jsx'));
-const SE = lazy(() => import('./Pages/Modules/SE.jsx'));
-const BDD = lazy(() => import('./Pages/Modules/BDD.jsx'));
-const AO = lazy(() => import('./Pages/Modules/AO.jsx'));
-const AOC = lazy(() => import('./Pages/Modules/AOC.jsx'));
-const AOT = lazy(() => import('./Pages/Modules/AOT.jsx'));
-const AOP = lazy(() => import('./Pages/Modules/AOP.jsx'));
-const BDDC = lazy(() => import('./Pages/Modules/BDDC.jsx'));
-const BDDT = lazy(() => import('./Pages/Modules/BDDT.jsx'));
-const RIT = lazy(() => import('./Pages/Modules/RIT.jsx'));
-const RIC = lazy(() => import('./Pages/Modules/RIC.jsx'));
-const SEC = lazy(() => import('./Pages/Modules/SEC.jsx'));
-const JAVAC = lazy(() => import('./Pages/Modules/JAVAC.jsx'));
-const JAVAT = lazy(() => import('./Pages/Modules/JAVAT.jsx'));
-const ROT = lazy(() => import('./Pages/Modules/ROT.JSX'));
-const ROC = lazy(() => import('./Pages/Modules/ROC.jsx'));
-const RIP = lazy(() => import('./Pages/Modules/RIP.jsx'));
+import JAVA from'./Pages/Modules/JAVA.jsx'
+import RI from './Pages/Modules/RI.jsx';
+import RO from './Pages/Modules/RO.jsx';
+import SE from './Pages/Modules/SE.jsx';
+import BDD from './Pages/Modules/BDD.jsx';
+import AO from './Pages/Modules/AO.jsx';
+import AOC from './Pages/Modules/AOC.jsx';
+import AOT from './Pages/Modules/AOT.jsx';
+import AOP from './Pages/Modules/AOP.jsx';
+import BDDC from './Pages/Modules/BDDC.jsx';
+import BDDT from './Pages/Modules/BDDT.jsx';
+import RIT from './Pages/Modules/RIT.jsx';
+import RIC from './Pages/Modules/RIC.jsx';
+import SEC from './Pages/Modules/SEC.jsx';
+import JAVAC from './Pages/Modules/JAVAC.jsx';
+import JAVAT from './Pages/Modules/JAVAT.jsx';
+import ROT from './Pages/Modules/ROT.JSX';
+import ROC from './Pages/Modules/ROC.jsx';
+import RIP from './Pages/Modules/RIP.jsx';
+
 
 function App() {
 
